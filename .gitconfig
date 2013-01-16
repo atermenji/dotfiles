@@ -1,0 +1,26 @@
+[user]
+	name = Artur Termenji
+	email = atermenji@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	ui = true
+[color "status"]
+	added = green bold
+	changed  = cyan bold
+	untracked = yellow bold
+[color "branch"]
+	current = cyan bold
+	local = yellow
+	remote = green
+[alias]
+	s = status
+	b = branch -avv
+	h = show HEAD
+	hf = show HEAD --name-only
+	d = diff
+	co = checkout
+	up = push origin
+[rerere]
+	enabled = true
