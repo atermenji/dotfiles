@@ -22,5 +22,6 @@
 	d = diff
 	co = checkout
 	up = push origin
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [rerere]
 	enabled = true
