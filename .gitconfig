@@ -5,6 +5,7 @@
 	branch = auto
 	diff = auto
 	status = auto
+	interactive = auto
 	ui = true
 [color "status"]
 	added = green bold
