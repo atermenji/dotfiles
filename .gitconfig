@@ -25,6 +25,8 @@
 	up = push origin
 	mrg = merge --no-ff
 	unstage = reset HEAD
+	ignr = update-index --assume-unchanged
+	unignr = update-index --no-assume-unchanged
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [rerere]
 	enabled = true
