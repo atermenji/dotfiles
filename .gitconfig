@@ -1,0 +1,30 @@
+[user]
+	name = Artur Termenji
+	email = atermenji@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	interactive = auto
+	ui = true
+[color "status"]
+	added = green bold
+	changed  = cyan bold
+	untracked = yellow bold
+[color "branch"]
+	current = cyan bold
+	local = yellow
+	remote = green
+[core]
+	editor = nvim
+  excludesfile = /Users/atermenji/.gitignore
+	autocrlf = input
+[rerere]
+	enabled = true
+[merge]
+	tool = gvimdiff
+[mergetool]
+  keepBackup = false
+[push]
+	default = tracking
+
