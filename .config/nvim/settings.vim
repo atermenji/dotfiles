@@ -13,12 +13,6 @@ autocmd BufRead,BufNewFile *.es6 setfiletype javascript
 set grepprg=git\ grep
 let g:grep_cmd_opts = '--line-number'
 
-nnoremap ,rs :RunItermSpec<cr>
-nnoremap ,rl :RunItermSpecLine<cr>
-nnoremap ,ss :RunItermSpringSpec<cr>
-nnoremap ,sl :RunItermSpringSpecLine<cr>
-
-
 " ========================================
 " General vim sanity improvements
 " ========================================
