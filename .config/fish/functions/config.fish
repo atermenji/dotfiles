@@ -1,3 +1,3 @@
-function config --description 'git for $HOME dotfiles'
+function config
   git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
 end
