@@ -2,10 +2,11 @@ package bundler
 package https://github.com/jhillyerd/plugin-git
 theme agnoster
 theme batman
+theme bobthefish
 theme cmorrell
 theme default
 theme eclm
 theme eden
 theme gnuykeaj
 theme mars
-theme trout
+theme sushi
