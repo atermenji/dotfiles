@@ -115,6 +115,7 @@ endif
 nmap <leader>b ibinding.pry<CR><Esc>
 
 " ================ Custom Settings ============================
+:source ~/.config/nvim/settings.vim
 :source ~/.config/nvim/settings/shortcuts.vim
 :source ~/.config/nvim/settings/plugin_configs.vim
 :source ~/.config/nvim/settings/lightline.vim
