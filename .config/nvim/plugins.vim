@@ -6,6 +6,7 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'thoughtbot/vim-rspec'
+Plug 'wuelnerdotexe/vim-astro'
 
 " UI
 Plug 'scrooloose/nerdtree'
@@ -40,7 +41,6 @@ Plug 'nathanaelkane/vim-indent-guides' " visually display indent levels
 
 " Bundle "godlygeek/tabular"
 
-" Coersion, smart search
-" Bundle "tpope/vim-abolish"
+Plug 'tpope/vim-abolish' " Coersion https://github.com/tpope/vim-abolish#coercion
 
 call plug#end()

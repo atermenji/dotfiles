@@ -120,3 +120,4 @@ nmap <leader>b ibinding.pry<CR><Esc>
 :source ~/.config/nvim/settings/plugin_configs.vim
 :source ~/.config/nvim/settings/lightline.vim
 :source ~/.config/nvim/settings/rails.vim
+:source ~/.config/nvim/settings/languages.vim
