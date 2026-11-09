@@ -1,0 +1,55 @@
+tap "docker/tap", trusted: true
+tap "heroku/brew"
+tap "mongodb/brew"
+# Distributed revision control system
+brew "git"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Arbitrary precision calculator
+brew "calc"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# GNU awk utility
+brew "gawk"
+# GitHub command-line tool
+brew "gh"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# GNU Privacy Guard (OpenPGP)
+brew "gnupg"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Postgres C API library
+brew "libpq"
+# YAML Parser
+brew "libyaml"
+# Utility for directing compilation
+brew "make"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# Object-relational database system
+brew "postgresql@15"
+# Object-relational database system
+brew "postgresql@18"
+# Develop and deploy code with zero configuration
+brew "railway"
+# Database of common MIME types
+brew "shared-mime-info"
+# Code-search similar to ack
+brew "the_silver_searcher"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
+# Build, run, and govern agents across the software development lifecycle
+cask "docker/tap/sbx", trusted: true
