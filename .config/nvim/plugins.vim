@@ -23,7 +23,6 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'skwp/greplace.vim' " global search-replace
 Plug 'vim-scripts/camelcasemotion' " CamelCase words support
-Plug 'matze/vim-move' " Move text up/down with Option key
 
 " textobjects.
 Plug 'kana/vim-textobj-user' " custom textobjects support

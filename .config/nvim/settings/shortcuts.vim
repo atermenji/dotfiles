@@ -16,6 +16,11 @@ nnoremap ,. '.
 nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
 
+" Move selected lines down/up with J/K in visual mode, re-indenting as they go.
+" (Option-hjkl belongs to tmux pane navigation.)
+xnoremap <silent> J :m '>+1<CR>gv=gv
+xnoremap <silent> K :m '<-2<CR>gv=gv
+
 " copy current filename into system clipboard - mnemonic: (c)urrent(f)ilename
 " Absolute path
 nnoremap <silent> ,cf :let @* = expand("%:~")<CR>
